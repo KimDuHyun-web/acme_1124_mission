@@ -80,6 +80,12 @@ nav li:first-child span{
 .testimonial{
     position: relative;
 }
+.slides{
+    position: relative;
+}
+.slides>li{
+    position:absolute;
+}
 .testimonial blockquote{
     width: 730px;
     margin:0 auto;
@@ -257,6 +263,7 @@ form input[type="submit"]{
     padding:0 20px;
     position: relative;
     margin-bottom: 1px;
+    cursor: pointer;
 }
 .question i{
     position: absolute;
@@ -310,6 +317,7 @@ form input[type="submit"]{
     align-items:center;
     visibility: hidden;
     opacity: 0;
+    transition: 0.5s;
 }
 #btt.active{
     opacity: 1;
