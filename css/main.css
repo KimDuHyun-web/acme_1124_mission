@@ -79,12 +79,17 @@ nav li:first-child span{
 }
 .testimonial{
     position: relative;
+    overflow: hidden;
 }
-.slides{
+.slide-container{
     position: relative;
+    padding-bottom: 81px;
 }
-.slides>li{
+.slide-container >li{
     position:absolute;
+    transition: left .3s ease-in;
+    height: 100%;
+    width: 100%;
 }
 .testimonial blockquote{
     width: 730px;
