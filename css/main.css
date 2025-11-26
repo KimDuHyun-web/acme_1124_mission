@@ -84,6 +84,7 @@ nav li:first-child span{
 .slide-container{
     position: relative;
     padding-bottom: 81px;
+    transition: 0.5s;
 }
 .slide-container >li{
     position:absolute;
